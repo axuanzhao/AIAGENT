@@ -140,7 +140,7 @@ if __name__ == "__main__":
         try:
             episodes = int(sys.argv[1])
         except Exception as e:
-            episodes = int(5)
+            episodes = int(500)
         # is used to train several episodes,
         # random.seed(1)
         env = virl.Epidemic( noisy=False, problem_id=i)
